@@ -1,0 +1,151 @@
+ex3_229  two:30%   four: 70.8333%
+3_17_13  two:100%   four: 0%
+rd53_311   two:0%
+decod24-bdd_294  two:71.4286%   four: 83.3333%
+4gt13_91  two:80%   four: 40%
+4mod7-v0_94  two:16.6667%   four: 20%
+decod24-v2_43   two:0%   four: 0%
+hwb4_49  two:5.88235%   four: 58.9744%
+cm152a_212   two:0%
+4gt11_83   two:0%   four: 0%
+sym10_262   two:0%
+rd53_135  two:59.2593%   four: 66.6667%
+sqn_258  two:99.9889%
+rd84_142  two:99.9995%   four: 15.873%
+one-two-three-v1_99  two:99.9999%   four: 99.9998%
+sym9_193   two:0%
+ex1_226   two:0%   four: 0%
+decod24-v1_41  two:75%   four: 25%
+4gt11_84  two:100%   four: 100%
+qft_16   two:0%   four: 99.9981%
+4mod5-v0_19   two:0%   four: 0%
+radd_250  two:99.9958%
+sym9_146   two:0%
+ham3_102   two:0%   four: 0%
+decod24-v3_45   two:0%   four: 33.3333%
+inc_237   two:0%
+rd84_253   two:0%
+plus63mod4096_163   two:0%
+misex1_241  two:19.6995%
+mod5d2_64  two:50%   four: 66.6667%
+ground_state_estimation_10   two:0%
+alu-v3_35  two:66.6667%   four: 88.8889%
+sqrt8_260   two:0%
+one-two-three-v3_101  two:100%   four: 99.9999%
+4mod7-v1_96  two:6.66667%   four: 16.6667%
+mod8-10_178  two:51.2821%   four: 74.6667%
+con1_216  two:60.9626%   four: 56.5476%
+4gt12-v0_87  two:33.3333%   four: 50%
+alu-bdd_288  two:70%   four: 80%
+mod5mils_65   two:0%   four: 0%
+sym9_148  two:99.9786%
+mod5adder_127  two:40.9091%   four: 38.0952%
+max46_240   two:0%
+one-two-three-v2_100  two:100%   four: 99.9999%
+4gt13_90  two:72.7273%   four: 18.1818%
+4mod5-v1_24   two:0%   four: 0%
+9symml_195   two:0%
+4gt5_75  two:36.3636%   four: 22.2222%
+alu-v2_30  two:15.3846%   four: 35.2941%
+ex-1_166   two:0%   four: 0%
+clip_206   two:0%
+rd32-v1_68   two:0%   four: 0%
+alu-v1_28  two:66.6667%   four: 88.8889%
+majority_239  two:51.7241%   four: 50.8772%
+C17_204  two:66.6667%   four: 63.7681%
+cm85a_209  two:99.9847%
+alu-v0_27  two:66.6667%   four: 88.8889%
+alu-v3_34  two:25%   four: 66.6667%
+4gt5_76  two:18.1818%   four: 47.619%
+4gt4-v1_74  two:5.55556%   four: 5.55556%
+pm1_249   two:0%
+aj-e11_165  two:25%   four: 55.5556%
+decod24-v0_38   two:0%   four: 0%
+rd53_130  two:55.4945%   four: 48.0769%
+hwb7_59  two:4.10589%
+root_255   two:0%
+one-two-three-v0_98  two:99.9999%   four: 99.9998%
+alu-v2_31  two:2.5%   four: 18.75%
+mod5d1_63   two:0%   four: 0%
+rd32_270  two:25%   four: 75%
+hwb5_53  two:38.5621%   four: 45.0292%
+co14_215   two:0%
+mod10_171  two:40.5405%   four: 8.33333%
+qft_10  two:33.3333%   four: 55.5556%
+4gt4-v0_78  two:11.1111%   four: 25%
+rd53_138  two:31.25%   four: 54.1667%
+rd53_133  two:43.9394%   four: 27.451%
+dist_223   two:0%
+ex3_229  two:99.9999%   four: 99.9998%
+ex3_229  two:10%   four: 62.5%
+3_17_13  two:100%   four: 0%
+rd53_311   two:0%
+decod24-bdd_294  two:71.4286%   four: 83.3333%
+4gt13_91  two:77.7778%   four: 33.3333%
+4mod7-v0_94  two:11.1111%   four: 25%
+decod24-v2_43   two:0%   four: 0%
+hwb4_49  two:5.88235%   four: 58.9744%
+cm152a_212   two:0%
+4gt11_83   two:0%   four: 0%
+ex3_229  two:10%   four: 62.5%
+3_17_13  two:100%   four: 0%
+rd53_311   two:0%
+decod24-bdd_294  two:71.4286%   four: 83.3333%
+4gt13_91  two:77.7778%   four: 33.3333%
+4mod7-v0_94  two:11.1111%   four: 25%
+decod24-v2_43   two:0%   four: 0%
+hwb4_49  two:5.88235%   four: 58.9744%
+cm152a_212   two:0%
+4gt11_83   two:0%   four: 0%
+sym10_262   two:0%
+rd53_135  two:59.2593%   four: 66.6667%
+sqn_258   two:0%
+decod24-enable_126  two:48.9796%   four: 47.9167%
+hwb8_113  two:99.9088%
+4gt4-v0_73  two:49.0909%   four: 50.8772%
+rd53_251  two:9.90099%   four: 31.0606%
+cm42a_207   two:0%
+sf_274  two:68.75%   four: 54.5455%
+4_49_16  two:100%   four: 100%
+ising_model_16   two:0%   four: 0%
+4gt12-v0_86  two:62.5%   four: 11.1111%
+squar5_261   two:0%
+rd32-v0_66   two:0%   four: 0%
+miller_11   two:0%   four: 0%
+4gt13_92   two:0%   four: 0%
+mini_alu_305   two:0%
+rd53_131  two:53.8462%   four: 16.6667%
+cnt3-5_180   two:0%
+4mod5-v0_20   two:0%   four: 0%
+alu-v4_36  two:75%   four: 25%
+4gt12-v1_89  two:99.9995%   four: 99.9997%
+sym6_316   two:0%
+ham7_104   two:0%   four: 47.9167%
+4mod5-v1_23  two:50%   four: 66.6667%
+4gt4-v0_80  two:62.5%   four: 50%
+4mod5-bdd_287  two:50%   four: 50%
+ising_model_10   two:0%   four: 0%
+hwb6_56  two:22.4335%   four: 30.6122%
+alu-v1_29  two:66.6667%   four: 88.8889%
+life_238   two:0%
+alu-v4_37  two:66.6667%   four: 88.8889%
+cm82a_208  two:59.5506%   four: 25%
+f2_232  two:53.9877%   four: 65.2778%
+square_root_7   two:0%
+sao2_257   two:0%
+ex2_227  two:37.5%   four: 53.3333%
+4gt12-v0_88  two:48.1481%   four: 22.2222%
+4mod5-v0_18  two:50%   four: 66.6667%
+4gt4-v0_79  two:61.9048%   four: 57.1429%
+mlp4_245   two:0%
+ham15_107   two:0%
+4gt4-v0_72  two:67.7419%   four: 74.359%
+urf1_149   two:0%
+4gt11_82   two:0%   four: 66.6667%
+mini-alu_167  two:24.3243%   four: 6.66667%
+统计电路数量 0: (145) 1: (145) 2: (145) 3: (145) 4: (104)
+1没有结果: (26) 2没有结果: (41) 3没有结果: (42)
+2 3 的情况，2比3少：20，3比2少：66，2等于3：59
+ 3比2提升效率(2-3)/2：49.963% 2比3提升效率(3-2)/3：68.849% 总的3比2提升：13.2454%
+4 3 的情况，4比3少：18，3比4少：62，4等于3：24
+ 3比4提升效率(4-3)/4：52.8205% 4比3提升效率(3-4)/3：61.2216% 总的3比4提升：20.8931%
