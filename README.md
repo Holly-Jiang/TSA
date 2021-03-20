@@ -83,7 +83,7 @@ or
 java -jar tabusearch.jar large  connect depth
 
 ```
-The result in `\TSA\tsa\src\main\resources\compare\total`.
+The result in `src/main/resources/compare/total`.
 
 
 
