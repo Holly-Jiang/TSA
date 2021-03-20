@@ -53,8 +53,8 @@ java -jar tabusearch.jar ../../../src/main/resources/example/0example.qasm conne
 ```
 The result stored in file `src/resources/compare/total`. Each circuit starts with 'x y z m n' where x represents the smallest initial mapping file subscript, y represents the initial number of 2-qubits gates, z represents the number of 2-qubit gates of the generating circuit, m represents the number of layers of the generating circuit, n represents the minimum number of exchanges, and t represents the time required for the search. 
 ```
-0example
-51 9 12 6 1 0
+3_17_13
+0 17 17 22 0
 ```
 
 
