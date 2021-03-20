@@ -1,16 +1,14 @@
 package cn.ecnu.tabusearch.utils;
 
-import cn.ecnu.tabusearch.Edge;
 import cn.ecnu.tabusearch.ShortPath;
 import cn.ecnu.tabusearch.swaps.Gate;
 import cn.ecnu.tabusearch.swaps.NodeDegree;
-import cn.ecnu.vf2.graph.IniGraph;
+import cn.ecnu.sc.graph.IniGraph;
 
 import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
-import java.util.function.BooleanSupplier;
 
 public class FileUtil {
 

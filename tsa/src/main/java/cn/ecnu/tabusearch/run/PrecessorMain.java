@@ -25,18 +25,15 @@ import static cn.ecnu.tabusearch.translate.TranslateMain.getFileList;
 public class PrecessorMain {
 
     public static final Integer N=999999;
-    public static void translate(){
+    public static void translate(int start){
         /**
          * /home/test/qubitmapping/
          * E:\github\Tabu_win\tabu\src\main\resources\example\
          */
         String inPath = "../../../src/main/resources/example/";//遍历文件夹下的所有.jpg文件
         List<String> files=  getFileList(inPath);
-        for (int i=0;i<files.size();i++){
-            System.out.println(i+" : "+files.get(i));
-        }
         System.out.println("------------------------------------------");
-        for (int i=0;i<files.size();i++){
+        for (int i=start;i<files.size();i++){
             if (files.get(i)==" "){
                 return;
             }
@@ -59,12 +56,9 @@ public class PrecessorMain {
 
                 FileWriter fw = new FileWriter(sb.toString(), false);
                 PrintWriter pw = new PrintWriter(fw);
-                System.out.println(total_level);
-                for (int j = 1, line = 1; j <= total_level; j++) {
+                for (int j = 1; j <= total_level; j++) {
                     Instruction p = tower[j].head.getNext();
                     while (p!=null) {
-                         System.out.println(line+" : ");
-                        line++;
                         p.print(pw);
                         p = p.getNext();
                     }
@@ -86,29 +80,25 @@ public class PrecessorMain {
         return ;
     }
 
-    public static void precess(){
+    public static void precess(int start){
         String filePath = "../../../src/main/resources/examples_result/";
-//        System.out.println(args.length);
-//        for (int i=0;i<args.length;i++){
-//            System.out.println(args[i]);
-//        }
         List<String> files = FileUtil.getFiles(filePath);
+        //Adjust the life cycle of qubits
+        translate(start);
+        //
         /**
          * /home/test/qubitmapping
          *\\src\\main\\resources
          */
-        for (int k = 0; k < files.size(); k++) {
+        for (int k = start; k < files.size(); k++) {
             StringBuilder str = new StringBuilder(files.get(k));
             str.delete(0, str.lastIndexOf("/") + 1);
             String ss = str.substring(0, str.lastIndexOf("."));
-            System.out.println(k + " 处理文件： " + ss);
+            System.out.println(" 处理第 "+k + " 个文件： " + ss);
 
             String argv1 = files.get(k);
             String argv2 = ss;
             Path qasm = Paths.get(argv1);
-            //Adjust the life cycle of qubits
-            translate();
-            //
             try {
                 FileUtil.precessReadQasm(qasm, argv2);
             } catch (IOException e) {
@@ -117,6 +107,11 @@ public class PrecessorMain {
         }
     }
     public static void main(String[] args) {
-        precess();
+        int start=0;
+        if(args.length>0){
+            start=Integer.parseInt(args[0]);
+            System.out.print(start);
+        }
+        precess(start);
         }
     }

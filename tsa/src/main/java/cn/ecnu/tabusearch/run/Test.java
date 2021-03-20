@@ -10,8 +10,8 @@ import cn.ecnu.tabusearch.utils.DateUtil;
 import cn.ecnu.tabusearch.utils.FileResult;
 import cn.ecnu.tabusearch.utils.FileUtil;
 import cn.ecnu.tabusearch.utils.PathUtil;
-import cn.ecnu.vf2.core.MyVF2;
-import cn.ecnu.vf2.graph.IniGraph;
+import cn.ecnu.sc.core.MyVF2;
+import cn.ecnu.sc.graph.IniGraph;
 
 import java.io.*;
 import java.nio.file.Path;
@@ -282,7 +282,7 @@ public class Test {
             while ((line = stdoutReader.readLine()) != null ) {
                 out.append(line+"\n");
             }
-            System.out.println("輸出："+out.toString());
+            System.out.println("output："+out.toString());
             try {
                 process.waitFor();
             } catch (InterruptedException e) {

@@ -24,7 +24,7 @@ Compare the initial mapping of wghtgraph, greedy, CSIC
  */
     public static void main(String[] args) throws IOException {
         if (args.length<2){
-            System.out.println("usage: java -jar tabusearch.jar [small/medium/large/all] [connect/degree]");
+            System.out.println("usage: java -jar tabusearch.jar [small/medium/large/all]");
             return ;
         }
         String filePath = "../../../src/main/resources/examples_result/";
