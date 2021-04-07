@@ -297,7 +297,7 @@ EvaluateQuery::LFTJ(const Graph *data_graph, const Graph *query_graph, Edges ***
     idx[cur_depth] = 0;
     idx_count[cur_depth] = candidates_count[start_vertex];
     string out_path;
-    out_path.append("/home/jh/github/TSA/tsa/src/main/resources/pre_ini_qx20/");
+    out_path.append("../../../tsa/src/main/resources/pre_ini_qx20/");
     out_path.append(filename.substr(filename.find_last_of("/")+1));
     cout<<out_path<<endl;
     std::ofstream out(out_path);  
