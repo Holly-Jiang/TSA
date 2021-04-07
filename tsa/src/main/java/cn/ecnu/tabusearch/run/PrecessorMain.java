@@ -81,7 +81,7 @@ public class PrecessorMain {
     }
 
     public static void precess(int start){
-        String filePath = "../../../src/main/resources/examples_result/";
+        String filePath = "../../../src/main/resources/example/";
         List<String> files = FileUtil.getFiles(filePath);
         //Adjust the life cycle of qubits
         translate(start);
