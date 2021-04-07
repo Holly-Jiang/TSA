@@ -1,0 +1,15 @@
+/home/jh/github/TSA/CISC/SubgraphComparing/build/CMakeFiles/rebuild_cache.dir
+/home/jh/github/TSA/CISC/SubgraphComparing/build/CMakeFiles/edit_cache.dir
+/home/jh/github/TSA/CISC/SubgraphComparing/build/graph/CMakeFiles/rebuild_cache.dir
+/home/jh/github/TSA/CISC/SubgraphComparing/build/graph/CMakeFiles/graph.dir
+/home/jh/github/TSA/CISC/SubgraphComparing/build/graph/CMakeFiles/edit_cache.dir
+/home/jh/github/TSA/CISC/SubgraphComparing/build/matching/CMakeFiles/rebuild_cache.dir
+/home/jh/github/TSA/CISC/SubgraphComparing/build/matching/CMakeFiles/GraphConverter.out.dir
+/home/jh/github/TSA/CISC/SubgraphComparing/build/matching/CMakeFiles/SubgraphMatching.out.dir
+/home/jh/github/TSA/CISC/SubgraphComparing/build/matching/CMakeFiles/EdgeListConverter.out.dir
+/home/jh/github/TSA/CISC/SubgraphComparing/build/matching/CMakeFiles/ReassignLabel.dir
+/home/jh/github/TSA/CISC/SubgraphComparing/build/matching/CMakeFiles/SelectEdge.dir
+/home/jh/github/TSA/CISC/SubgraphComparing/build/matching/CMakeFiles/edit_cache.dir
+/home/jh/github/TSA/CISC/SubgraphComparing/build/utility/CMakeFiles/rebuild_cache.dir
+/home/jh/github/TSA/CISC/SubgraphComparing/build/utility/CMakeFiles/utility.dir
+/home/jh/github/TSA/CISC/SubgraphComparing/build/utility/CMakeFiles/edit_cache.dir

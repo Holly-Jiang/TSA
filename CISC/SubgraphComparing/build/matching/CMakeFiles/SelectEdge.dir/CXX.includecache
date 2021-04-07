@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jh/github/TSA/CISC/SubgraphComparing/matching/SelectEdge.cpp
+cassert
+-
+algorithm
+-
+vector
+-
+fstream
+-
+iostream
+-
+sstream
+-
+chrono
+-
+tuple
+-
+random
+-
+
