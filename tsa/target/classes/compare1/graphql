@@ -1,0 +1,22 @@
+*****************************************
+QFilter types (string):
+0 :: if no filter is used,
+1 :: if Q0 is used for all layers,
+12 :: if Q0 is used for the first layer and Q1 is used for the other layers,
+12x :: if Q0 is used for the first layer and Q0+Q1 is used for the other layers,
+2x :: if Q0+Q1 is used for all layers 
+In this test, circuit size: medium, we use Type 0 filter and graphql initial mapping for medium circuits
+*****************************************
+Thu Apr  1 11:10:20 2021
+wim_266.qasm
+360 44
+rd53_131.qasm
+162 15
+rd53_251.qasm
+491 44
+mini-alu_167.qasm
+116 12
+sf_274.qasm
+293 11
+hwb5_53.qasm
+533 46

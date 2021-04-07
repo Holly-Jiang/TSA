@@ -6,7 +6,9 @@ public class DateUtil {
 
     public static long TimeDifference(Date start, Date end) {
         long between = end.getTime() - start.getTime();
-        int minutes = (int) (between / (1000));
+        long minutes =  (between / (1000));
         return minutes;
     }
+
+
 }

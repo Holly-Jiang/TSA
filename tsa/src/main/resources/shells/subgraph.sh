@@ -367,6 +367,7 @@
 ../../../../CISC/SubgraphComparing/build/matching/SubgraphMatching.out -d ../../../../CISC/SubgraphComparing/test/sample_dataset/test_case_1.graph -q ../../../src/main/resources/pre_result/hwb7_59 -filter DPiso -order GQL -engine LFTJ -num 100
 ../../../../CISC/SubgraphComparing/build/matching/SubgraphMatching.out -d ../../../../CISC/SubgraphComparing/test/sample_dataset/test_case_1.graph -q ../../../src/main/resources/pre_result/urf2_152 -filter DPiso -order GQL -engine LFTJ -num 100
 ../../../../CISC/SubgraphComparing/build/matching/SubgraphMatching.out -d ../../../../CISC/SubgraphComparing/test/sample_dataset/test_case_1.graph -q ../../../src/main/resources/pre_result/urf2_277 -filter DPiso -order GQL -engine LFTJ -num 100
+../../../../CISC/SubgraphComparing/build/matching/SubgraphMatching.out -d ../../../../CISC/SubgraphComparing/test/sample_dataset/test_case_1.graph -q ../../../src/main/resources/pre_result/max46_240 -filter DPiso -order GQL -engine LFTJ -num 100
 
 
 ../../../../CISC/SubgraphComparing/build/matching/SubgraphMatching.out -d ../../../../CISC/SubgraphComparing/test/sample_dataset/test_case_1.graph -q ../../../src/main/resources/pre_result/0example -filter GQL -order GQL -engine LFTJ -num 100

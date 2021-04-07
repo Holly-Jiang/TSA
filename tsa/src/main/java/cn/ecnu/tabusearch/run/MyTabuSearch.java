@@ -56,10 +56,13 @@ public class MyTabuSearch {
             return ;
         }
         int type=0;
+        String out_file="total";
         if (args[2].equals("depth")){
             type=1;
+            out_file+="_depth";
+            System.out.println(out_file);
         }
-        Path outPath = Paths.get("../../../src/main/resources/compare", "total");
+        Path outPath = Paths.get("../../../src/main/resources/compare", out_file);
         FileWriter iniWriter = new FileWriter(outPath.toFile(), true);
         List<String> files = FileUtil.getFiles("../../../src/main/resources/examples_result/");
         graph = PathUtil.build_graph_QX20().getGraph();

@@ -1,0 +1,432 @@
+*****************************************
+QFilter types (string):
+0 :: if no filter is used,
+1 :: if Q0 is used for all layers,
+12 :: if Q0 is used for the first layer and Q1 is used for the other layers,
+12x :: if Q0 is used for the first layer and Q0+Q1 is used for the other layers,
+2x :: if Q0+Q1 is used for all layers 
+In this test, circuit size: small ,we use Type 0 filter and topgraph initial mapping for small circuits
+*****************************************
+Thu Apr  1 11:11:44 2021
+4mod5-v1_24
+15 0
+decod24-v3_45
+57 5
+3_17_13
+17 0
+alu-v1_28
+16 3
+decod24-v1_41
+34 1
+4mod5-v1_23
+30 2
+sys6-v0_111
+80 15
+4gt4-v0_80
+71 4
+4gt5_75
+33 3
+alu-bdd_288
+36 5
+4gt13_91
+46 2
+mini_alu_305
+44 9
+ising_model_10
+34 0
+alu-v0_27
+15 3
+4mod5-v0_18
+31 2
+mod5d1_63
+11 0
+4gt13-v1_93
+27 0
+4gt12-v0_88
+67 6
+4gt11_83
+14 0
+decod24-v0_38
+23 0
+one-two-three-v2_100
+29 3
+rd32_270
+36 4
+4gt11_84
+8 0
+4gt11_82
+18 1
+alu-v4_36
+47 2
+graycode6_47
+5 0
+rd32-v0_66
+16 0
+4mod5-v0_19
+16 0
+4gt10-v1_81
+59 4
+0example
+6 1
+ham3_102
+11 0
+alu-v2_32
+61 4
+cnt3-5_179
+43 1
+alu-v4_37
+16 3
+alu-v1_29
+15 3
+4gt13_90
+50 3
+one-two-three-v0_98
+60 5
+xor5_254
+5 0
+0410184_169
+6 1
+alu-v3_35
+16 3
+rd32-v1_68
+16 0
+mod5d2_64
+23 3
+4gt5_77
+51 3
+qft_10
+57 15
+one-two-three-v1_99
+52 5
+4mod5-v0_20
+9 0
+one-two-three-v3_101
+28 3
+ex-1_166
+9 0
+mod10_176
+72 5
+4mod5-bdd_287
+30 2
+decod24-v2_43
+22 0
+rd53_138
+49 8
+4mod7-v1_96
+62 6
+4_49_16
+90 6
+mod5mils_65
+16 0
+ex1_226
+5 0
+alu-v0_26
+30 4
+alu-v2_33
+15 2
+4mod5-v1_22
+10 0
+4gt5_76
+38 7
+alu-v3_34
+21 3
+4mod7-v0_94
+66 4
+aj-e11_165
+62 6
+decod24-bdd_294
+31 4
+miller_11
+23 0
+4gt13_92
+26 0
+The average ratio is 3075 : 2523 = 1.2187871581450653 
+The time spent for this test is 253.7733154296875
+*****************************************
+QFilter types (string):
+0 :: if no filter is used,
+1 :: if Q0 is used for all layers,
+12 :: if Q0 is used for the first layer and Q1 is used for the other layers,
+12x :: if Q0 is used for the first layer and Q0+Q1 is used for the other layers,
+2x :: if Q0+Q1 is used for all layers 
+In this test, circuit size: medium ,we use Type 0 filter and topgraph initial mapping for medium circuits
+*****************************************
+Thu Apr  1 13:00:23 2021
+rd53_131
+163 12
+rd53_251
+499 44
+mini-alu_167
+115 10
+sf_274
+289 11
+hwb5_53
+534 57
+rd53_133
+219 17
+4gt4-v0_79
+92 3
+ising_model_16
+39 0
+con1_216
+346 56
+4gt12-v0_87
+97 2
+cm82a_208
+228 16
+4gt12-v1_89
+79 9
+ising_model_13
+31 0
+4gt4-v1_74
+108 6
+4gt4-v0_78
+96 4
+cm152a_212
+444 42
+rd53_130
+378 52
+majority_239
+225 28
+C17_204
+160 23
+ex2_227
+238 25
+ex3_229
+155 8
+alu-v2_30
+197 17
+mod8-10_177
+165 34
+ham7_104
+127 16
+decod24-enable_126
+123 16
+4gt4-v0_73
+153 19
+rd53_135
+123 22
+f2_232
+447 72
+alu-v2_31
+168 16
+mod10_171
+96 8
+4gt12-v0_86
+99 3
+sym9_146
+126 28
+one-two-three-v0_97
+112 12
+mod8-10_178
+130 25
+sym6_316
+89 18
+mod5adder_127
+204 21
+rd73_140
+89 19
+4gt4-v0_72
+98 13
+hwb4_49
+102 10
+sf_276
+285 12
+rd53_311
+102 20
+The average ratio is 11524 : 13326 = 0.864775626594627 
+The time spent for this test is 1595.109722852707
+*****************************************
+QFilter types (string):
+0 :: if no filter is used,
+1 :: if Q0 is used for all layers,
+12 :: if Q0 is used for the first layer and Q1 is used for the other layers,
+12x :: if Q0 is used for the first layer and Q0+Q1 is used for the other layers,
+2x :: if Q0+Q1 is used for all layers 
+In this test, circuit size: medium ,we use Type 0 filter and topgraph initial mapping for medium circuits
+*****************************************
+Thu Apr  1 15:14:05 2021
+*****************************************
+QFilter types (string):
+0 :: if no filter is used,
+1 :: if Q0 is used for all layers,
+12 :: if Q0 is used for the first layer and Q1 is used for the other layers,
+12x :: if Q0 is used for the first layer and Q0+Q1 is used for the other layers,
+2x :: if Q0+Q1 is used for all layers 
+In this test, circuit size: large ,we use Type 0 filter and topgraph initial mapping for large circuits
+*****************************************
+Thu Apr  1 15:16:32 2021
+*****************************************
+QFilter types (string):
+0 :: if no filter is used,
+1 :: if Q0 is used for all layers,
+12 :: if Q0 is used for the first layer and Q1 is used for the other layers,
+12x :: if Q0 is used for the first layer and Q0+Q1 is used for the other layers,
+2x :: if Q0+Q1 is used for all layers 
+In this test, circuit size: large ,we use Type 0 filter and topgraph initial mapping for large circuits
+*****************************************
+Thu Apr  1 16:52:00 2021
+*****************************************
+QFilter types (string):
+0 :: if no filter is used,
+1 :: if Q0 is used for all layers,
+12 :: if Q0 is used for the first layer and Q1 is used for the other layers,
+12x :: if Q0 is used for the first layer and Q0+Q1 is used for the other layers,
+2x :: if Q0+Q1 is used for all layers 
+In this test, circuit size: small ,we use Type 0 filter and topgraph initial mapping for small circuits
+*****************************************
+Thu Apr  1 16:53:55 2021
+4mod5-v1_24
+15 0
+decod24-v3_45
+57 5
+3_17_13
+17 0
+alu-v1_28
+16 3
+decod24-v1_41
+34 1
+4mod5-v1_23
+30 2
+sys6-v0_111
+80 15
+4gt4-v0_80
+71 4
+4gt5_75
+33 3
+alu-bdd_288
+36 5
+4gt13_91
+46 2
+mini_alu_305
+44 9
+ising_model_10
+34 0
+alu-v0_27
+15 3
+4mod5-v0_18
+31 2
+mod5d1_63
+11 0
+4gt13-v1_93
+27 0
+4gt12-v0_88
+67 6
+4gt11_83
+14 0
+decod24-v0_38
+23 0
+one-two-three-v2_100
+29 3
+rd32_270
+36 4
+4gt11_84
+8 0
+4gt11_82
+18 1
+alu-v4_36
+47 2
+graycode6_47
+5 0
+rd32-v0_66
+16 0
+4mod5-v0_19
+16 0
+4gt10-v1_81
+59 4
+0example
+6 1
+ham3_102
+11 0
+alu-v2_32
+61 4
+cnt3-5_179
+43 1
+alu-v4_37
+16 3
+alu-v1_29
+15 3
+4gt13_90
+50 3
+one-two-three-v0_98
+60 5
+xor5_254
+5 0
+0410184_169
+6 1
+alu-v3_35
+16 3
+rd32-v1_68
+16 0
+mod5d2_64
+23 3
+4gt5_77
+51 3
+qft_10
+57 15
+one-two-three-v1_99
+52 5
+4mod5-v0_20
+9 0
+one-two-three-v3_101
+28 3
+ex-1_166
+9 0
+mod10_176
+72 5
+4mod5-bdd_287
+30 2
+decod24-v2_43
+22 0
+rd53_138
+49 8
+4mod7-v1_96
+62 6
+4_49_16
+90 6
+mod5mils_65
+16 0
+ex1_226
+5 0
+alu-v0_26
+30 4
+alu-v2_33
+15 2
+4mod5-v1_22
+10 0
+4gt5_76
+38 7
+alu-v3_34
+21 3
+4mod7-v0_94
+66 4
+aj-e11_165
+62 6
+decod24-bdd_294
+31 4
+miller_11
+23 0
+4gt13_92
+26 0
+The average ratio is 3075 : 2523 = 1.2187871581450653 
+The time spent for this test is 254.8442358970642
+*****************************************
+QFilter types (string):
+0 :: if no filter is used,
+1 :: if Q0 is used for all layers,
+12 :: if Q0 is used for the first layer and Q1 is used for the other layers,
+12x :: if Q0 is used for the first layer and Q0+Q1 is used for the other layers,
+2x :: if Q0+Q1 is used for all layers 
+In this test, circuit size: large ,we use Type 0 filter and topgraph initial mapping for large circuits
+*****************************************
+Thu Apr  1 16:58:52 2021
+*****************************************
+QFilter types (string):
+0 :: if no filter is used,
+1 :: if Q0 is used for all layers,
+12 :: if Q0 is used for the first layer and Q1 is used for the other layers,
+12x :: if Q0 is used for the first layer and Q0+Q1 is used for the other layers,
+2x :: if Q0+Q1 is used for all layers 
+In this test, circuit size: large ,we use Type 0 filter and topgraph initial mapping for large circuits
+*****************************************
+Thu Apr  1 18:16:25 2021

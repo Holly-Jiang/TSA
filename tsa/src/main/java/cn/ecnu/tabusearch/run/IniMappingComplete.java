@@ -1,11 +1,10 @@
-package cn.ecnu.sc.runner;
+package cn.ecnu.tabusearch.run;
 
-import cn.ecnu.tabusearch.utils.FileUtil;
 import cn.ecnu.sc.core.MyVF2;
 import cn.ecnu.sc.graph.IniGraph;
+import cn.ecnu.tabusearch.utils.FileUtil;
 
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -17,6 +16,21 @@ public class IniMappingComplete {
 
     public static void main(String[] args) throws FileNotFoundException {
         System.out.println("-----------------------");
+        if (args.length == 0) {
+            printUsage();
+            System.out.println();
+            System.out.println("Warning: no arguments given, using default arguments");
+            System.out.println();
+            return;
+        }
+        int type=0;
+        if (args[0].equals("connect")){
+            type=0;
+        }else if (args[0].equals("connect")){
+            type=1;
+        }else{
+            printUsage();
+        }
 //            dealCMD();
         Path graphPath = Paths.get("../../../src/main/resources/graphDB", "mygraphdb3.data");
         Path queryPath = Paths.get("E:/github/VF2/data/graphDB", "Ex2.my");
@@ -36,14 +50,7 @@ public class IniMappingComplete {
             str.delete(0,str.lastIndexOf("/")+1);
             queryPath = Paths.get("../../../src/main/resources/pre_result/"+str.toString());
             outIniPath=Paths.get("../../../src/main/resources/ini_mapping_q20/"+str.toString());
-            if (args.length == 0) {
-                printUsage();
-                System.out.println();
-                System.out.println("Warning: no arguments given, using default arguments");
-                System.out.println();
-            }
-            int type=0;
-            type=Integer.parseInt(args[0]);
+
             System.out.println("Target Graph Path: " + graphPath.toString());
             System.out.println("Query Graph Path: " + queryPath.toString());
             System.out.println("Output Path: " + outPath.toString());
@@ -55,7 +62,10 @@ public class IniMappingComplete {
             ArrayList<IniGraph> graphSet = FileUtil.loadGraphSetFromFile(graphPath, "Graph ");
             ArrayList<IniGraph> querySet = FileUtil.loadGraphSetFromFile(queryPath, "Query ");
             List<List<Integer>> mapping=FileUtil.loadDataSetFromFile(mappingPath,"mapping");
-
+            if (mapping.size()<=0){
+                executeLinuxCmd("../../../../CISC/SubgraphComparing/build/matching/SubgraphMatching.out -d ../../../../CISC/SubgraphComparing/test/sample_dataset/test_case_1.graph -q ../../../src/main/resources/pre_result/"+str.toString()+" -filter DPiso -order GQL -engine LFTJ -num 100\n");
+            }
+            mapping=FileUtil.loadDataSetFromFile(mappingPath,"mapping");
             int maxMappingCount=0;
             Map<List<Integer>,Integer> mappingResult=new HashMap<>();
             for (int i=0;i<mapping.size();i++){
@@ -127,6 +137,6 @@ public class IniMappingComplete {
     }
 
     private static void printUsage(){
-        System.out.println("Usage: java -jar tabusearch.jar [0-connect/1-degree]");
+        System.out.println("Usage: java -jar tabusearch.jar [connect/degree]");
     }
 }

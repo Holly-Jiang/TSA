@@ -41,7 +41,7 @@ public class Test {
             try {
                 reader = new BufferedReader(new FileReader(file));
                 Translate trans=new Translate();
-                System.out.println("deal file: "+inPath);
+                System.out.println("handle the file: "+inPath);
                 int total_level = trans.translate(tower,reader);
                 StringBuffer sb=new StringBuffer();
                 sb.append("../../../src/main/resources/examples_result/");
@@ -95,7 +95,10 @@ public class Test {
             ArrayList<IniGraph> graphSet = FileUtil.loadGraphSetFromFile(graphPath, "Graph ");
             ArrayList<IniGraph> querySet =FileUtil.loadGraphSetFromFile(queryPath, "Query ");
             List<List<Integer>> mapping=FileUtil.loadDataSetFromFile(mappingPath,"mapping");
-
+            if (mapping.size()<=0){
+                executeLinuxCmd("../../../../CISC/SubgraphComparing/build/matching/SubgraphMatching.out -d ../../../../CISC/SubgraphComparing/test/sample_dataset/test_case_1.graph -q ../../../src/main/resources/pre_result/"+ss+" -filter DPiso -order GQL -engine LFTJ -num 100\n");
+            }
+            mapping=FileUtil.loadDataSetFromFile(mappingPath,"mapping");
             int maxMappingCount=0;
             Map<List<Integer>,Integer> mappingResult=new HashMap<>();
             for (int i=0;i<mapping.size();i++){
@@ -263,11 +266,10 @@ public class Test {
             System.out.println("mapping index: "+min_index+" the  number of initial 2-qubit gates: "+fileResult.getN2gates()
                     +" the  number of result 2-qubit gates: "+min_files.getN2gates()
                     +" result depth: "+min_files.getLayers().size()
-                +" minimum number of swaps: " + min_swaps+" time spent: "+DateUtil.TimeDifference(start, end));
+                +" minimum number of swaps: " + min_swaps+" time spent: "+DateUtil.TimeDifference(start, end)+" seconds");
             iniWriter.append("\n");
             iniWriter.flush();
 
-        System.out.println("time： "+DateUtil.TimeDifference(start, end)+" seconds");
         System.out.println("endtime: "+end);
         iniWriter.close();
     }
@@ -296,7 +298,7 @@ public class Test {
         return null;
 }
     public static void main(String[] args) {
-        if (args.length<2){
+        if (args.length<3){
             System.out.println("usage: java -jar tabusearch.jar [input file path] [connect/degree] [num/depth]");
             return ;
         }

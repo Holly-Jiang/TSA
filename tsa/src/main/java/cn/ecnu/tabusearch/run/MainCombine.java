@@ -40,7 +40,7 @@ Compare the initial mapping of wghtgraph, greedy, CSIC
         String out2 = "../../../src/main/resources/compare/total_A_ini_connect";
         FileWriter of1 = new FileWriter(out1, true);
         FileWriter of2 = new FileWriter(out2, true);
-        for (int k = 0; k < files.size(); k++) {
+        for (int k = 156; k < files.size(); k++) {
             StringBuilder str = new StringBuilder(files.get(k));
             str.delete(0, str.lastIndexOf("/") + 1);
             String ss = str.substring(0, str.lastIndexOf("."));
