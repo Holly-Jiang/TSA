@@ -23,7 +23,7 @@ public class MainCombine {
 Compare the initial mapping of wghtgraph, greedy, CSIC
  */
     public static void main(String[] args) throws IOException {
-        if (args.length<2){
+        if (args.length<1){
             System.out.println("usage: java -jar tabusearch.jar [small/medium/large/all]");
             return ;
         }

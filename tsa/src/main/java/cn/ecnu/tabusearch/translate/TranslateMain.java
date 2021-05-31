@@ -25,7 +25,7 @@ public class TranslateMain {
              * /home/test/qubitmapping/
              * E:\github\Tabu_win\tabu\src\main\resources\data\
              */
-            String inPath = "../../../src/main/resources/resources/data/";//遍历文件夹下的所有.jpg文件
+            String inPath = "../../../src/main/resources/data/";//遍历文件夹下的所有.jpg文件
             List<String> files=  getFileList(inPath);
             for (int i=0;i<files.size();i++){
                 System.out.println(i+" : "+files.get(i));

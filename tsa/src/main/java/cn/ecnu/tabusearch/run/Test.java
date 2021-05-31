@@ -30,7 +30,7 @@ public class Test {
          * /home/test/qubitmapping/
          * E:\github\Tabu_win\tabu\src\main\resources\data\
          */
-        //String inPath = "../../../src/main/resources/resources/data/";//遍历文件夹下的所有.jpg文件
+        //String inPath = "../../../src/main/resources/data/";//遍历文件夹下的所有.jpg文件
 //            File file = new File("E:\\github\\Tabu_win\\tabu\\src\\main\\resources\\resources/data\\0example.qasm");
             File file = new File(inPath);
             BufferedReader reader = null;
