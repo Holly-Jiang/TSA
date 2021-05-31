@@ -11,15 +11,15 @@ import java.util.Map;
 
 public class Test {
     public static void main(String[] args) throws IOException {
-        String startStr="../../../src/main/resources/compare/initial_information";
+        String startStr="../../../src/main/resources/results/initial_information";
         Map<String , List<List<Integer>>> start_result=readStart(startStr);
-        String optmStr="../../../src/main/resources/compare/total_A_ini_connect";
+        String optmStr="../../../src/main/resources/results/total_A_ini_connect";
         Map<String , List<List<Integer>>> optmStr_result=readOptm(optmStr);
-        String wghgrStr="../../../src/main/resources/compare/wgtgraph";
+        String wghgrStr="../../../src/main/resources/results/wgtgraph";
         Map<String , List<List<Integer>>> wghgr_result=readWghgr(wghgrStr);
-        String tabuStr="../../../src/main/resources/compare/total_tabu_lookahead2";
+        String tabuStr="../../../src/main/resources/results/total_tabu_lookahead2";
         Map<String , List<List<Integer>>> num_tabu_result=readTabu(tabuStr);
-        String depthtabuStr="../../../src/main/resources/compare/total_tabu_depth_ini_lookahead2";
+        String depthtabuStr="../../../src/main/resources/results/total_tabu_depth_ini_lookahead2";
         Map<String , List<List<Integer>>> depth_tabu_result=readTabu(depthtabuStr);
         print_num(start_result,optmStr_result,wghgr_result,num_tabu_result,depth_tabu_result);
 //        print_non_num(start_result,optmStr_result,wghgr_result,num_tabu_result,depth_tabu_result);

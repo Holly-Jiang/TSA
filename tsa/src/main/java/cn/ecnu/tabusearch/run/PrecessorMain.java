@@ -28,9 +28,9 @@ public class PrecessorMain {
     public static void translate(int start){
         /**
          * /home/test/qubitmapping/
-         * E:\github\Tabu_win\tabu\src\main\resources\example\
+         * E:\github\Tabu_win\tabu\src\main\resources\data\
          */
-        String inPath = "../../../src/main/resources/example/";//遍历文件夹下的所有.jpg文件
+        String inPath = "../../../src/main/resources/data/";//遍历文件夹下的所有.jpg文件
         List<String> files=  getFileList(inPath);
         System.out.println("------------------------------------------");
         for (int i=start;i<files.size();i++){
@@ -81,7 +81,7 @@ public class PrecessorMain {
     }
 
     public static void precess(int start){
-        String filePath = "../../../src/main/resources/example/";
+        String filePath = "../../../src/main/resources/resources/data/";
         List<String> files = FileUtil.getFiles(filePath);
         //Adjust the life cycle of qubits
         translate(start);

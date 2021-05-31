@@ -23,9 +23,9 @@ public class TranslateMain {
         public static void main(String[] args) {
             /**
              * /home/test/qubitmapping/
-             * E:\github\Tabu_win\tabu\src\main\resources\example\
+             * E:\github\Tabu_win\tabu\src\main\resources\data\
              */
-            String inPath = "../../../src/main/resources/example/";//遍历文件夹下的所有.jpg文件
+            String inPath = "../../../src/main/resources/resources/data/";//遍历文件夹下的所有.jpg文件
             List<String> files=  getFileList(inPath);
             for (int i=0;i<files.size();i++){
                 System.out.println(i+" : "+files.get(i));
@@ -35,7 +35,7 @@ public class TranslateMain {
                 if (files.get(i)==" "){
                     return;
                 }
-//            File file = new File("E:\\github\\Tabu_win\\tabu\\src\\main\\resources\\example\\0example.qasm");
+//            File file = new File("E:\\github\\Tabu_win\\tabu\\src\\main\\resources\\resources/data\\0example.qasm");
                 File file = new File(files.get(i));
                 BufferedReader reader = null;
                 Level[] tower=new Level[N];
@@ -49,7 +49,7 @@ public class TranslateMain {
                     int total_level = trans.translate(tower,reader);
                     System.out.println("\n重新打印代码:\n");
                     StringBuffer sb=new StringBuffer();
-                    sb.append("../../../src/main/resources/examples_result/");
+                    sb.append("../../../src/main/resources/datas_result/");
                     String []splits=files.get(i).split("/");
 
                     sb.append(splits[splits.length-1]);

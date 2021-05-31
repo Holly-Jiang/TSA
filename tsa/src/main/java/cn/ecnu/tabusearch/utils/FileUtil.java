@@ -173,7 +173,7 @@ public class FileUtil {
             list.add(i);
         }
 
-        Path outPath = Paths.get("../../../src/main/resources/compare/", "initial_information");
+        Path outPath = Paths.get("../../../src/main/resources/results/", "initial_information");
         FileWriter writer = new FileWriter(outPath.toFile(),true);
         StringBuilder pre_str = new StringBuilder();
         pre_str.append("../../../src/main/resources/pre_result/");

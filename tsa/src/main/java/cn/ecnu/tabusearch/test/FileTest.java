@@ -23,8 +23,8 @@ class TreeNode {
 public class FileTest {
 
     public static void main(String[] args) throws IOException {
-//        method1("E:\\github\\quantum_compiler_optim\\compare\\total","fff");
-//        FileWriter of2 = new FileWriter("E:\\github\\quantum_compiler_optim\\compare\\total",true);
+//        method1("E:\\github\\quantum_compiler_optim\\results\\total","fff");
+//        FileWriter of2 = new FileWriter("E:\\github\\quantum_compiler_optim\\results\\total",true);
 //        of2.write("PPPP");
 //        of2.append("\n");
 //        of2.append("999999999");

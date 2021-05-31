@@ -28,10 +28,10 @@ public class Test {
     public static void translate(String inPath){
         /**
          * /home/test/qubitmapping/
-         * E:\github\Tabu_win\tabu\src\main\resources\example\
+         * E:\github\Tabu_win\tabu\src\main\resources\data\
          */
-        //String inPath = "../../../src/main/resources/example/";//遍历文件夹下的所有.jpg文件
-//            File file = new File("E:\\github\\Tabu_win\\tabu\\src\\main\\resources\\example\\0example.qasm");
+        //String inPath = "../../../src/main/resources/resources/data/";//遍历文件夹下的所有.jpg文件
+//            File file = new File("E:\\github\\Tabu_win\\tabu\\src\\main\\resources\\resources/data\\0example.qasm");
             File file = new File(inPath);
             BufferedReader reader = null;
             Level[] tower=new Level[N];
@@ -135,7 +135,7 @@ public class Test {
             iniWriter.close();
     }
     public static void search(String filepath,int type) throws IOException {
-        Path outPath = Paths.get("../../../src/main/resources/compare", "total");
+        Path outPath = Paths.get("../../../src/main/resources/results", "total");
         FileWriter iniWriter = new FileWriter(outPath.toFile(), true);
         graph = PathUtil.build_graph_QX20().getGraph();
         dist = PathUtil.build_dist_table_tabu(graph);

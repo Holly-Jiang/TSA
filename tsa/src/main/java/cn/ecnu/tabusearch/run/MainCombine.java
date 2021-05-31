@@ -36,8 +36,8 @@ Compare the initial mapping of wghtgraph, greedy, CSIC
          */
         String GQL_iniPath = "../../../src/main/resources/ini_mapping_q20/";
         String FY_iniPath = "../../../src/main/resources/testIni/";
-        String out1 = "../../../src/main/resources/compare/total1_A_ini_connect" ;
-        String out2 = "../../../src/main/resources/compare/total_A_ini_connect";
+        String out1 = "../../../src/main/resources/results/total1_A_ini_connect" ;
+        String out2 = "../../../src/main/resources/results/total_A_ini_connect";
         FileWriter of1 = new FileWriter(out1, true);
         FileWriter of2 = new FileWriter(out2, true);
         for (int k = 156; k < files.size(); k++) {

@@ -27,12 +27,12 @@ public class main_Zulehner {
 //    }
     public static void main(String[] args) throws IOException, OvertimeException {
         String filePath="E:\\github\\QubitMappingInTabu\\examples_result\\";
-        String gql_out1="E:\\github\\quantum_compiler_optim\\compare\\total1";
-        String gql_out2="E:\\github\\quantum_compiler_optim\\compare\\total";
-        String Zulehner_out1="E:\\github\\quantum_compiler_optim\\compare\\total1";
-        String Zulehner_out2="E:\\github\\quantum_compiler_optim\\compare\\total";
-        String FY_out1="E:\\github\\quantum_compiler_optim\\compare\\total1";
-        String FY_out2="E:\\github\\quantum_compiler_optim\\compare\\total";
+        String gql_out1="E:\\github\\quantum_compiler_optim\\results\\total1";
+        String gql_out2="E:\\github\\quantum_compiler_optim\\results\\total";
+        String Zulehner_out1="E:\\github\\quantum_compiler_optim\\results\\total1";
+        String Zulehner_out2="E:\\github\\quantum_compiler_optim\\results\\total";
+        String FY_out1="E:\\github\\quantum_compiler_optim\\results\\total1";
+        String FY_out2="E:\\github\\quantum_compiler_optim\\results\\total";
         String GQL_iniPath="E:\\github\\quantum_mapping_a_-\\ini_mapping_q20\\";
         String grapPath="E:\\github\\quantum_mapping_a_-\\pre_result\\";
         String Zulehner_iniPath="";

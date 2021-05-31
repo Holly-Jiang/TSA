@@ -5,12 +5,12 @@ import java.util.*;
 
 public class DealData {
     public static void main(String[] args) throws IOException {
-        String ini_VF="../../../src/main/resources/compare/gql_VF";
-        String topgraph="../../../src/main/resources/compare/topgraph";
+        String ini_VF="../../../src/main/resources/results/gql_VF";
+        String topgraph="../../../src/main/resources/results/topgraph";
         Map<String,List<Integer>> map_topgraph=read_topgraph_file(topgraph);
         Map<String,List<Integer>> map_ini_VF=read_topgraph_file(ini_VF);
-        Map<String,List<Integer>> map1=read_tabu_file("../../../src/main/resources/compare/total_tabu_lookahead2");
-        Map<String,List<Integer>> map2=read_tabu_file("../../../src/main/resources/compare/total_tabu_depth_ini_lookahead2");
+        Map<String,List<Integer>> map1=read_tabu_file("../../../src/main/resources/results/total_tabu_lookahead2");
+        Map<String,List<Integer>> map2=read_tabu_file("../../../src/main/resources/results/total_tabu_depth_ini_lookahead2");
         compare_ini_VF(map_ini_VF,map_topgraph,1);
         System.out.println("--------depth-------------num_tabu VS depth_tabu");
         compare_depth_num(map1,map2);
